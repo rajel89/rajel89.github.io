@@ -1,3 +1,5 @@
+/*This is the Home page section and the initial format that follows through on every page.*/
+
 .hero-image {
     background-image: url("wp2337041.jpg"); 
     /* background-image url can be either local or from www. */
@@ -17,7 +19,12 @@
     color: white;
   }
     
+  .homeimagesize {
+    width: 30%;
+    border-radius: 50%;
+  }
 /*Fromating for the Nav. Bar.*/
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -43,7 +50,10 @@
   }
 
   /*Portfolio grid formating starts here.*/
-
+  .projectimagesize {
+    width: 30%;
+    border-radius: 50%;
+  }
   
   .project-container {
     display: grid;
@@ -71,16 +81,22 @@
   }
 
   /*About page*/
-  .imagesize {
+  
+  .aboutimagesize {
     width: 30%;
+    border-radius: 50%;
+    margin: 265px;
+    margin-top: 165px;
+  
+ 
   }
   .aboutpage-container {
     display: 
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     grid-template-columns: auto;
     background-color:"";
-    padding: 50px;
+    padding: 0px;
   }
 
   .aboutpage-item {
@@ -94,8 +110,8 @@
   .aboutpage-text {
     text-align: left;
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: 50%;
+    left: 65%;
     transform: translate(-50%, -50%);
     color: white;
   }
